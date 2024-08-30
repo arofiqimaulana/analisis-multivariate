@@ -1,4 +1,4 @@
-Experiment	Temperature	N-source	Replica	Dry weight	Optical_density	Product_yield
+Experiment	Temperature	N-source	Replica	Dry weight	Optical density	Product yield
 batch_30_a_A2	30	ammonium chloride	1	5.18	1.6	34.9
 batch_30_a_A3	30	ammonium chloride	2	3.76	1.78	33.1
 batch_30_a_A4	30	ammonium chloride	3	4.4	1.7	29
