@@ -15,12 +15,14 @@ Vektor nilai tengah adalah konsep dasar dalam statistik multivariat yang digunak
 Vektor nilai tengah adalah rata-rata dari beberapa variabel sekaligus dalam dataset multivariat. Jika Anda memiliki dataset dengan beberapa variabel, Anda bisa menghitung rata-rata untuk setiap variabel dan menggabungkannya menjadi sebuah vektor. Vektor ini disebut sebagai vektor nilai tengah.
 
 ### Notasi
-Vektor nilai tengah untuk dataset multivariat dengan \( p \) variabel dapat dinyatakan sebagai:
-\[
+Vektor nilai tengah untuk dataset multivariat dengan $p$ variabel dapat dinyatakan sebagai:
+
+$$
 \bar{\mathbf{X}} = \left[ \bar{X_1}, \bar{X_2}, \dots, \bar{X_p} \right]
-\]
+$$
+
 Di mana:
-- \( \bar{X_1}, \bar{X_2}, \dots, \bar{X_p} \) adalah rata-rata dari setiap variabel.
+- $\bar{X_1}, \bar{X_2}, \dots, \bar{X_p}$ adalah rata-rata dari setiap variabel.
 
 ## Cara Menghitung Vektor Nilai Tengah
 Langkah-langkah menghitung vektor nilai tengah adalah sebagai berikut:
@@ -29,14 +31,17 @@ Langkah-langkah menghitung vektor nilai tengah adalah sebagai berikut:
 3. **Bentuk vektor nilai tengah**: Gabungkan rata-rata dari setiap variabel menjadi sebuah vektor.
 
 ### Contoh
-Misalkan Anda memiliki dataset dengan dua variabel \( X_1 \) dan \( X_2 \):
-\[
+Misalkan Anda memiliki dataset dengan dua variabel $X_1$ dan $X_2$:
+
+$$
 \mathbf{X} = \begin{bmatrix} X_{11} & X_{12} \\ X_{21} & X_{22} \\ \vdots & \vdots \\ X_{n1} & X_{n2} \end{bmatrix}
-\]
+$$
+
 Vektor nilai tengahnya adalah:
-\[
+
+$$
 \bar{\mathbf{X}} = \begin{bmatrix} \frac{1}{n} \sum_{i=1}^{n} X_{i1} \\ \frac{1}{n} \sum_{i=1}^{n} X_{i2} \end{bmatrix}
-\]
+$$
 
 ## Aplikasi Vektor Nilai Tengah
 Vektor nilai tengah digunakan dalam berbagai analisis statistik multivariat, seperti:
@@ -56,13 +61,14 @@ Misalkan kita memiliki dataset dengan dua variabel: Berat dan Tinggi.
 | 80         | 180         |
 
 Untuk menghitung vektor nilai tengah:
-1. Rata-rata Berat \( \bar{X_1} = \frac{60 + 65 + 70 + 75 + 80}{5} = 70 \) kg.
-2. Rata-rata Tinggi \( \bar{X_2} = \frac{160 + 165 + 170 + 175 + 180}{5} = 170 \) cm.
+1. Rata-rata Berat $\bar{X_1} = \frac{60 + 65 + 70 + 75 + 80}{5} = 70$ kg.
+2. Rata-rata Tinggi $\bar{X_2} = \frac{160 + 165 + 170 + 175 + 180}{5} = 170$ cm.
 
 Vektor nilai tengahnya adalah:
-\[
+
+$$
 \bar{\mathbf{X}} = \begin{bmatrix} 70 \\ 170 \end{bmatrix}
-\]
+$$
 
 ## Kesimpulan
 Vektor nilai tengah adalah konsep dasar yang sangat penting dalam analisis statistik multivariat. Dengan memahami cara menghitung dan menerapkannya, Anda dapat melakukan berbagai analisis yang lebih kompleks, seperti uji hipotesis multivariat, analisis discriminant, dan lainnya.
